@@ -9,7 +9,7 @@ import com.bjsxt.pojo.Star;
 import com.bjsxt.service.StarService;
 @Service
 public class StarServiceImpl implements StarService {
-
+	//hello word
 	@Override
 	public Star selectStarById(Integer id) {
 		// TODO Auto-generated method stub
