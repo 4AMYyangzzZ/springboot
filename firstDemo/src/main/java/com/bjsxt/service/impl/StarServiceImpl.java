@@ -18,7 +18,7 @@ public class StarServiceImpl implements StarService {
 		star.setName("jack");
 		return star;
 	}
-	
+	//hello world
 	//查询所有的star
 	@Override
 	public List<Star> selectAllStar() {
