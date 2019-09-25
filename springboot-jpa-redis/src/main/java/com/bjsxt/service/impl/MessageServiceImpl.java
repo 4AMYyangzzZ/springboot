@@ -26,7 +26,7 @@ import com.bjsxt.service.MessageService;
 
 @Service
 public class MessageServiceImpl implements MessageService {
-	
+	//嘿嘿
 	@Autowired
 	private MessageDao messageDao;
 	@Autowired
