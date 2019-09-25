@@ -1,5 +1,4 @@
 package com.bjsxt.service.impl;
-//hello github
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +8,6 @@ import com.bjsxt.pojo.Star;
 import com.bjsxt.service.StarService;
 @Service
 public class StarServiceImpl implements StarService {
-	//hello word
 	@Override
 	public Star selectStarById(Integer id) {
 		// TODO Auto-generated method stub
@@ -18,7 +16,8 @@ public class StarServiceImpl implements StarService {
 		star.setName("jack");
 		return star;
 	}
-
+	
+	//查询所有的star
 	@Override
 	public List<Star> selectAllStar() {
 		// TODO Auto-generated method stub
