@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- id:<span th:text="${star.id}"></span>
+name:<span th:text="${star.name}"></span> -->
+
+<table>
+	<tr th:each="star:${stars}">
+		<td th:text="${star.id}"></td>
+		<td th:text="${star.name}"></td>
+	</tr>
+</table>
+</body>
+</html>
