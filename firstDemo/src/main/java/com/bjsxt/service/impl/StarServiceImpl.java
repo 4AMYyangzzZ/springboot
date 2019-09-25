@@ -8,6 +8,8 @@ import com.bjsxt.pojo.Star;
 import com.bjsxt.service.StarService;
 @Service
 public class StarServiceImpl implements StarService {
+	
+	//根据id查询star
 	@Override
 	public Star selectStarById(Integer id) {
 		// TODO Auto-generated method stub
